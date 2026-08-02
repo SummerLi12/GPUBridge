@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/jinduo/.local/lib/python3.10/site-packages/torch/include",
+                "/home/jinduo/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include",
+                "/home/jinduo/.local/lib/python3.10/site-packages/torch/include/THC",
+                "/usr/include/python3.10",
+                "/home/jinduo/Desktop/GPUBridge/GPUportal/include",
+                "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include"
+            ],
+            "defines": [
+                "TORCH_API_INCLUDE_EXTENSION_H",
+                "TORCH_EXTENSION_NAME=gpuportal",
+                "_GLIBCXX_USE_CXX11_ABI=0"
+            ],
+            "compileCommands": "${workspaceFolder}/.vscode/compile_commands.json",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,17 @@
+/* Generated at CMake configure time from
+ * backends/vulkan/vector_add_f32.spv — see CMakeLists.txt's file(READ ... HEX)
+ * + configure_file() step (spec4.5.md section 7.2). Do not edit this
+ * generated output directly (it lives under the build directory and gets
+ * regenerated on every `cmake` configure run) — edit
+ * backends/vulkan/vector_add_f32.comp and re-run glslangValidator instead
+ * (see that file's own header comment); vector_add_f32.spv is this array's
+ * single source of truth.
+ *
+ * Unlike vector_add_f32_cl.h.in's kVectorAddF32Source, this is binary SPIR-V
+ * data measured by byte count, not a null-terminated C string — no trailing
+ * 0x00 terminator is appended. _Alignas(4): vkCreateShaderModule requires
+ * pCode to point at 4-byte-aligned memory (SPIR-V words are uint32_t); a
+ * plain unsigned char[] has no such guarantee from the C standard alone. */
+#include <stddef.h>
+static const _Alignas(4) unsigned char kVectorAddF32Spv[] = { @VULKAN_SPV_HEX@ };
+static const size_t kVectorAddF32SpvSize = sizeof(kVectorAddF32Spv);

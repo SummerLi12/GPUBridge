@@ -1,0 +1,208 @@
+[
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_runtime.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_runtime.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_runtime.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_selector.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_selector.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_selector.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_env.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_env.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_env.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_diagnostics.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_diagnostics.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_diagnostics.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_ir.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_ir.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_ir.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_memory.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_memory.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_memory.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_pool.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_pool.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_pool.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/src/gpubridge_scheduling.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_scheduling.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src/gpubridge_scheduling.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/backends/cpu/gpubridge_backend_cpu.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/cpu/gpubridge_backend_cpu.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/cpu/gpubridge_backend_cpu.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/backends/cpu/gpubridge_cpu_openblas.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/cpu/gpubridge_cpu_openblas.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/cpu/gpubridge_cpu_openblas.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/backends/opencl/gpubridge_backend_opencl.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/opencl/gpubridge_backend_opencl.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/opencl/gpubridge_backend_opencl.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/backends/opencl/gpubridge_opencl_clblast.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/opencl/gpubridge_opencl_clblast.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/opencl/gpubridge_opencl_clblast.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=120 -DCL_USE_DEPRECATED_OPENCL_1_2_APIS -DGPUBRIDGE_HAVE_CLBLAST=1 -DGPUBRIDGE_HAVE_OPENBLAS=1 -DGPUBRIDGE_HAVE_OPENCL=1 -DGPUBRIDGE_HAVE_VULKAN=1 -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/src -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build -I/home/jinduo/.local/include -g -fPIC -std=gnu11 -o CMakeFiles/gpubridge_runtime.dir/backends/vulkan/gpubridge_backend_vulkan.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/vulkan/gpubridge_backend_vulkan.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/backends/vulkan/gpubridge_backend_vulkan.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_vecadd_test.dir/tests/test_vecadd.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_vecadd.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_vecadd.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_matmul_test.dir/tests/test_matmul.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_matmul.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_matmul.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_reduce_sum_test.dir/tests/test_reduce_sum.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_reduce_sum.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_reduce_sum.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_broadcast_add_test.dir/tests/test_broadcast_add.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_broadcast_add.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_broadcast_add.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_relu_test.dir/tests/test_relu.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_relu.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_relu.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_dense_forward_test.dir/tests/test_dense_forward.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_dense_forward.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_dense_forward.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_memory_strategy_test.dir/tests/test_memory_strategy.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_memory_strategy.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_memory_strategy.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_profile_test.dir/tests/test_profile.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_profile.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_profile.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_tensor_pool_test.dir/tests/test_tensor_pool.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_tensor_pool.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_tensor_pool.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_tensor_mirror_test.dir/tests/test_tensor_mirror.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_tensor_mirror.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_tensor_mirror.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_ir_validate_test.dir/tests/test_ir_validate.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_ir_validate.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_ir_validate.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_edge_vocabulary_test.dir/tests/test_edge_vocabulary.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_edge_vocabulary.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_edge_vocabulary.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_edge_profile_test.dir/tests/test_edge_profile.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_edge_profile.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_edge_profile.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DGPUBRIDGE_BUILD_TYPE=\\\"Debug\\\" -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_matmul_benchmark_test.dir/tests/test_matmul_benchmark.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_matmul_benchmark.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_matmul_benchmark.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc -DGPUBRIDGE_BUILD_TYPE=\\\"Debug\\\" -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_matmul_benchmark_test.dir/tests/bench_common.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_vecadd_benchmark_test.dir/tests/test_vecadd_benchmark.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_vecadd_benchmark.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_vecadd_benchmark.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_vecadd_benchmark_test.dir/tests/bench_common.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_reduce_sum_benchmark_test.dir/tests/test_reduce_sum_benchmark.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_reduce_sum_benchmark.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_reduce_sum_benchmark.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_reduce_sum_benchmark_test.dir/tests/bench_common.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_broadcast_add_benchmark_test.dir/tests/test_broadcast_add_benchmark.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_broadcast_add_benchmark.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_broadcast_add_benchmark.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_broadcast_add_benchmark_test.dir/tests/bench_common.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_relu_benchmark_test.dir/tests/test_relu_benchmark.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_relu_benchmark.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/test_relu_benchmark.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpubridge_relu_benchmark_test.dir/tests/bench_common.c.o -c /home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/tests/bench_common.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build/GPUportal",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/GPUportal/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIC -std=gnu11 -o CMakeFiles/gpuportal_blas.dir/src/gpubridge_blas.c.o -c /home/jinduo/Desktop/GPUBridge/GPUportal/src/gpubridge_blas.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/GPUportal/src/gpubridge_blas.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build/GPUportal",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/GPUportal/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIC -std=gnu11 -o CMakeFiles/gpuportal.dir/src/gpubridge_portal.c.o -c /home/jinduo/Desktop/GPUBridge/GPUportal/src/gpubridge_portal.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/GPUportal/src/gpubridge_portal.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build/GPUportal",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/GPUportal/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpuportal_blas_sgemm_test.dir/tests/test_blas_sgemm.c.o -c /home/jinduo/Desktop/GPUBridge/GPUportal/tests/test_blas_sgemm.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/GPUportal/tests/test_blas_sgemm.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/build/GPUportal",
+    "command": "/usr/bin/cc  -I/home/jinduo/Desktop/GPUBridge/GPUportal/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -g -fPIE -std=gnu11 -o CMakeFiles/gpuportal_portal_graph_test.dir/tests/test_portal_graph.c.o -c /home/jinduo/Desktop/GPUBridge/GPUportal/tests/test_portal_graph.c",
+    "file": "/home/jinduo/Desktop/GPUBridge/GPUportal/tests/test_portal_graph.c"
+  },
+  {
+    "directory": "/home/jinduo/Desktop/GPUBridge/GPUportal/python/build/temp.linux-x86_64-3.10",
+    "command": "c++ -MMD -MF /home/jinduo/Desktop/GPUBridge/GPUportal/python/build/temp.linux-x86_64-3.10/gpuportal_torch.o.d -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/jinduo/Desktop/GPUBridge/GPUportal/include -I/home/jinduo/Desktop/GPUBridge/gpubridge-runtime/include -I/home/jinduo/.local/lib/python3.10/site-packages/torch/include -I/home/jinduo/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/jinduo/.local/lib/python3.10/site-packages/torch/include/TH -I/home/jinduo/.local/lib/python3.10/site-packages/torch/include/THC -I/usr/include/python3.10 -c -c /home/jinduo/Desktop/GPUBridge/GPUportal/python/gpuportal_torch.cpp -o /home/jinduo/Desktop/GPUBridge/GPUportal/python/build/temp.linux-x86_64-3.10/gpuportal_torch.o -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE=\"_gcc\"' '-DPYBIND11_STDLIB=\"_libstdcpp\"' '-DPYBIND11_BUILD_ABI=\"_cxxabi1011\"' -DTORCH_EXTENSION_NAME=gpuportal -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++17",
+    "file": "/home/jinduo/Desktop/GPUBridge/GPUportal/python/gpuportal_torch.cpp",
+    "output": "/home/jinduo/Desktop/GPUBridge/GPUportal/python/build/temp.linux-x86_64-3.10/gpuportal_torch.o"
+  }
+]

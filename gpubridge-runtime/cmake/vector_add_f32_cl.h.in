@@ -1,0 +1,12 @@
+/* Generated at CMake configure time from backends/opencl/vector_add_f32.cl
+ * — see CMakeLists.txt's file(READ ... HEX) + configure_file() step.
+ * Do not edit this generated output directly (it lives under the build
+ * directory and gets regenerated on every `cmake` configure run) — edit
+ * backends/opencl/vector_add_f32.cl instead, which is this array's single
+ * source of truth.
+ *
+ * @CL_KERNEL_HEX@ is substituted by CMake with the kernel source's bytes as
+ * a comma-separated list of "0xNN" hex literals, ending in a "0x00"
+ * terminator so gpubridge_backend_opencl.c can treat this array as a normal
+ * null-terminated C string via strlen()/clCreateProgramWithSource. */
+static const unsigned char kVectorAddF32Source[] = { @CL_KERNEL_HEX@ };

@@ -1,0 +1,31 @@
+gpubridge-runtime/ — the core C runtime
+
+cd ~/Desktop/GPUBridge/gpubridge-runtime
+
+# build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=$HOME/.local -DGPUBRIDGE_BUILD_PORTAL=ON
+cmake --build build -j
+
+# run a single test binary (path is relative to gpubridge-runtime/)
+LD_LIBRARY_PATH=$HOME/.local/lib GPUBRIDGE_BACKEND=opencl GPUBRIDGE_VERBOSE=1 ./build/gpubridge_matmul_test
+
+# run the whole suite
+LD_LIBRARY_PATH=$HOME/.local/lib ctest --test-dir build --output-on-failure
+GPUportal/ — the PyTorch bridge sub-project
+
+cd ~/Desktop/GPUBridge/GPUportal
+
+# C-level GPUportal tests are actually built INSIDE gpubridge-runtime/build
+# (via add_subdirectory), so run them from there, filtered by name:
+LD_LIBRARY_PATH=$HOME/.local/lib ctest --test-dir ../gpubridge-runtime/build -R gpuportal --output-on-failure
+
+# build the PyTorch extension (its own separate manual step)
+cd python
+python3 setup.py build_ext --inplace
+cd ..
+
+# run the Python test suite
+PYTHONPATH=python:$PYTHONPATH LD_LIBRARY_PATH=$HOME/.local/lib python3 -m pytest tests/test_torch_matmul.py -v
+
+# run the demo script
+PYTHONPATH=python:$PYTHONPATH LD_LIBRARY_PATH=$HOME/.local/lib python3 demo_pipeline_verbose.py

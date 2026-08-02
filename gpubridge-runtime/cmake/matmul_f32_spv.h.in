@@ -1,0 +1,10 @@
+/* Generated at CMake configure time from backends/vulkan/matmul_f32.spv —
+ * see vector_add_f32_spv.h.in's header comment for the full rationale
+ * (same file(READ ... HEX) + configure_file() pattern, same _Alignas(4)
+ * requirement, same "edit the .comp, re-run glslangValidator by hand"
+ * warning). Added when the four Milestone 2 tensor ops were ported to the
+ * Vulkan backend, beyond spec4.5.md's own vector_add_f32-only scope (see
+ * CLAUDE.md's "Phase 4.5" section for that deviation). */
+#include <stddef.h>
+static const _Alignas(4) unsigned char kMatmulF32Spv[] = { @VULKAN_SPV_HEX@ };
+static const size_t kMatmulF32SpvSize = sizeof(kMatmulF32Spv);

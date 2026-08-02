@@ -1,0 +1,23 @@
+# Markdown docs excluded per request
+*.md
+
+# Build artifacts
+build/
+*.a
+*.so
+*.o
+__pycache__/
+.pytest_cache/
+
+# Secrets / env files
+*.env
+.env*
+*secret*
+*credential*
+*.pem
+*.key
+id_rsa*
+
+# Misc scratch output
+output.txt
+out.txt

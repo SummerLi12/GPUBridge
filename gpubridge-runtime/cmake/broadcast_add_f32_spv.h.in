@@ -1,0 +1,6 @@
+/* Generated at CMake configure time from backends/vulkan/broadcast_add_f32.spv
+ * — see vector_add_f32_spv.h.in / matmul_f32_spv.h.in's header comments for
+ * the full rationale. */
+#include <stddef.h>
+static const _Alignas(4) unsigned char kBroadcastAddF32Spv[] = { @VULKAN_SPV_HEX@ };
+static const size_t kBroadcastAddF32SpvSize = sizeof(kBroadcastAddF32Spv);

@@ -1,0 +1,7 @@
+/* Generated at CMake configure time from backends/opencl/relu_f32.cl — see
+ * CMakeLists.txt's file(READ ... HEX) + configure_file() step. Do not edit
+ * this generated output directly (it lives under the build directory and
+ * gets regenerated on every `cmake` configure run) — edit
+ * backends/opencl/relu_f32.cl instead, which is this array's single source
+ * of truth. */
+static const unsigned char kReluF32Source[] = { @CL_KERNEL_HEX@ };
